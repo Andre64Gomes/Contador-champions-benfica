@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benfica – Dias Sem Champions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red:        #c8102e;
+      --red-dark:   #8b0a1f;
+      --red-glow:   rgba(200, 16, 46, 0.35);
+      --gold:       #f5c518;
+      --bg:         #0a0a0b;
+      --surface:    #111114;
+      --surface-2:  #18181c;
+      --border:     rgba(200,16,46,0.2);
+      --text:       #f0ede8;
+      --text-muted: #9a9490;
+      --font-display: 'Oswald', sans-serif;
+      --font-body:    'Inter', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-height: 100dvh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Background radial glow */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(200,16,46,0.18) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 40% at 50% 100%, rgba(200,16,46,0.08) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Subtle animated particles */
+    .particles {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .particle {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background: var(--red);
+      opacity: 0;
+      animation: float linear infinite;
+    }
+
+    @keyframes float {
+      0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+      10%  { opacity: 0.4; }
+      90%  { opacity: 0.2; }
+      100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+    }
+
+    /* Main content */
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem 1.5rem;
+      width: 100%;
+      max-width: 900px;
+      text-align: center;
+    }
+
+    /* Eagle / logo badge */
+    .badge {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .eagle-svg {
+      width: 80px;
+      height: 80px;
+      filter: drop-shadow(0 0 16px var(--red-glow));
+      animation: pulse-glow 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse-glow {
+      0%, 100% { filter: drop-shadow(0 0 12px var(--red-glow)); }
+      50%       { filter: drop-shadow(0 0 28px rgba(200,16,46,0.6)); }
+    }
+
+    .club-name {
+      font-family: var(--font-display);
+      font-size: clamp(0.75rem, 2vw, 0.9rem);
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    /* Main headline */
+    .headline {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(2.4rem, 8vw, 5.5rem);
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text);
+    }
+
+    .headline span {
+      color: var(--red);
+      display: block;
+    }
+
+    /* Counter grid */
+    .counter {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      width: 100%;
+      max-width: 700px;
+    }
+
+    .counter-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 0.75rem 1.25rem;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .counter-block::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--red), transparent);
+      opacity: 0.7;
+    }
+
+    .counter-block:hover {
+      border-color: rgba(200,16,46,0.5);
+      box-shadow: 0 0 24px rgba(200,16,46,0.12);
+    }
+
+    .counter-num {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(2rem, 6vw, 4rem);
+      line-height: 1;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      display: block;
+      transition: transform 0.15s ease, color 0.15s ease;
+    }
+
+    .counter-num.tick {
+      transform: scale(1.12);
+      color: var(--red);
+    }
+
+    .counter-label {
+      display: block;
+      font-family: var(--font-body);
+      font-size: clamp(0.6rem, 1.5vw, 0.75rem);
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+    }
+
+    /* Last match info */
+    .last-match {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .last-match-label {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .last-match-info {
+      font-family: var(--font-display);
+      font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+      color: var(--text);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
+    .last-match-info .score {
+      color: var(--red);
+    }
+
+    /* Live dot */
+    .live-indicator {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      letter-spacing: 0.1em;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--red);
+      animation: blink 1.4s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; box-shadow: 0 0 6px var(--red); }
+      50%       { opacity: 0.3; box-shadow: none; }
+    }
+
+    /* Footer */
+    footer {
+      position: relative;
+      z-index: 1;
+      color: var(--text-muted);
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+      padding: 1.5rem;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    footer a {
+      color: var(--red);
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .counter {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+      }
+      .counter-block { padding: 1.25rem 0.5rem 1rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating particles -->
+  <div class="particles" id="particles"></div>
+
+  <div class="wrapper">
+
+    <!-- Badge -->
+    <div class="badge">
+      <!-- Benfica Eagle SVG -->
+      <svg class="eagle-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Águia do Benfica">
+        <!-- Shield -->
+        <path d="M50 8 L88 22 L88 55 C88 75 70 92 50 97 C30 92 12 75 12 55 L12 22 Z"
+              fill="#8b0a1f" stroke="#c8102e" stroke-width="1.5"/>
+        <!-- Red band -->
+        <path d="M50 8 L88 22 L88 55 C88 75 70 92 50 97 C30 92 12 75 12 55 L12 22 Z"
+              fill="none" stroke="#c8102e" stroke-width="2"/>
+        <!-- Eagle body -->
+        <ellipse cx="50" cy="52" rx="12" ry="18" fill="#c8102e"/>
+        <!-- Eagle head -->
+        <circle cx="50" cy="32" r="9" fill="#c8102e"/>
+        <!-- Beak -->
+        <path d="M53 34 L60 36 L54 38 Z" fill="#f5c518"/>
+        <!-- Eye -->
+        <circle cx="47" cy="30" r="2.5" fill="#f5c518"/>
+        <circle cx="47" cy="30" r="1.2" fill="#0a0a0b"/>
+        <!-- Wings left -->
+        <path d="M38 48 C25 38 10 42 8 52 C15 48 25 50 38 58 Z" fill="#c8102e"/>
+        <path d="M38 54 C22 46 8 54 10 64 C18 58 28 58 38 64 Z" fill="#8b0a1f"/>
+        <!-- Wings right -->
+        <path d="M62 48 C75 38 90 42 92 52 C85 48 75 50 62 58 Z" fill="#c8102e"/>
+        <path d="M62 54 C78 46 92 54 90 64 C82 58 72 58 62 64 Z" fill="#8b0a1f"/>
+        <!-- Talons -->
+        <path d="M44 68 L40 78 M48 70 L46 80 M52 70 L54 80 M56 68 L60 78" stroke="#f5c518" stroke-width="2" stroke-linecap="round"/>
+        <!-- Tail feathers -->
+        <path d="M44 68 C42 76 38 80 36 84 M50 70 C50 78 50 82 50 86 M56 68 C58 76 62 80 64 84" stroke="#8b0a1f" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <span class="club-name">Sport Lisboa e Benfica</span>
+    </div>
+
+    <!-- Headline -->
+    <h1 class="headline">
+      Dias Sem<span>Champions</span>
+    </h1>
+
+    <!-- Counter -->
+    <div class="counter" role="timer" aria-live="polite" aria-label="Contador de tempo sem Champions League">
+      <div class="counter-block">
+        <span class="counter-num" id="days">000</span>
+        <span class="counter-label">Dias</span>
+      </div>
+      <div class="counter-block">
+        <span class="counter-num" id="hours">00</span>
+        <span class="counter-label">Horas</span>
+      </div>
+      <div class="counter-block">
+        <span class="counter-num" id="minutes">00</span>
+        <span class="counter-label">Minutos</span>
+      </div>
+      <div class="counter-block">
+        <span class="counter-num" id="seconds">00</span>
+        <span class="counter-label">Segundos</span>
+      </div>
+    </div>
+
+    <!-- Last match -->
+    <div class="last-match">
+      <span class="last-match-label">Último jogo na Champions</span>
+      <span class="last-match-info">
+        Real Madrid <span class="score">2 – 1</span> Benfica
+        &nbsp;·&nbsp; Play-off 2.ª Mão &nbsp;·&nbsp; 25 Fev 2026
+      </span>
+    </div>
+
+    <!-- Live indicator -->
+    <div class="live-indicator">
+      <span class="dot"></span>
+      A contagem está a decorrer em tempo real
+    </div>
+
+  </div>
+
+  <footer>
+    Feito com amor (e sofrimento) para os benfiquistas mais masoquistas 🦅❤️
+  </footer>
+
+  <script>
+    // Particles
+    (function() {
+      const container = document.getElementById('particles');
+      for (let i = 0; i < 30; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        p.style.left = Math.random() * 100 + 'vw';
+        p.style.animationDuration = (8 + Math.random() * 14) + 's';
+        p.style.animationDelay = (Math.random() * 12) + 's';
+        p.style.width = p.style.height = (1 + Math.random() * 3) + 'px';
+        container.appendChild(p);
+      }
+    })();
+
+    // Counter — last game: 25 Feb 2026, 22:00 CET (Madrid local time, approx. end of match)
+    const lastGame = new Date('2026-02-25T23:00:00+01:00');
+
+    const daysEl    = document.getElementById('days');
+    const hoursEl   = document.getElementById('hours');
+    const minutesEl = document.getElementById('minutes');
+    const secondsEl = document.getElementById('seconds');
+
+    function pad(n, len = 2) {
+      return String(n).padStart(len, '0');
+    }
+
+    function animateTick(el) {
+      el.classList.remove('tick');
+      void el.offsetWidth; // reflow
+      el.classList.add('tick');
+      setTimeout(() => el.classList.remove('tick'), 200);
+    }
+
+    let prevSeconds = -1;
+
+    function update() {
+      const now = new Date();
+      const diff = now - lastGame;
+
+      const totalSeconds = Math.floor(diff / 1000);
+      const days    = Math.floor(totalSeconds / 86400);
+      const hours   = Math.floor((totalSeconds % 86400) / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
+
+      daysEl.textContent    = pad(days, 3);
+      hoursEl.textContent   = pad(hours);
+      minutesEl.textContent = pad(minutes);
+      secondsEl.textContent = pad(seconds);
+
+      if (seconds !== prevSeconds) {
+        animateTick(secondsEl);
+        if (seconds === 0) animateTick(minutesEl);
+        if (seconds === 0 && minutes === 0) animateTick(hoursEl);
+        prevSeconds = seconds;
+      }
+    }
+
+    update();
+    setInterval(update, 1000);
+  </script>
+</body>
+</html>
