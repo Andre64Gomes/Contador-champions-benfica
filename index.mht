@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang="pt" data-theme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-e9209d36-122d-4d90-bc1d-5ed543f918d8@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benfica – Dias Sem Champions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <!-- Floating particles -->
+  <div class="particles" id="particles"><div class="particle" style="left: 89.0575vw; animation-duration: 15.9627s; animation-delay: 5.56949s; height: 2.98048px; width: 2.98048px;"></div><div class="particle" style="left: 79.4898vw; animation-duration: 19.9927s; animation-delay: 0.233017s; height: 1.52738px; width: 1.52738px;"></div><div class="particle" style="left: 69.0509vw; animation-duration: 18.9615s; animation-delay: 6.69127s; height: 3.07371px; width: 3.07371px;"></div><div class="particle" style="left: 30.05vw; animation-duration: 20.154s; animation-delay: 4.92206s; height: 3.64624px; width: 3.64624px;"></div><div class="particle" style="left: 63.1419vw; animation-duration: 13.3089s; animation-delay: 0.585711s; height: 1.11957px; width: 1.11957px;"></div><div class="particle" style="left: 5.78442vw; animation-duration: 16.6794s; animation-delay: 0.385774s; height: 3.5276px; width: 3.5276px;"></div><div class="particle" style="left: 54.2146vw; animation-duration: 15.6144s; animation-delay: 6.46131s; height: 1.10743px; width: 1.10743px;"></div><div class="particle" style="left: 54.4793vw; animation-duration: 14.76s; animation-delay: 11.1357s; height: 3.34754px; width: 3.34754px;"></div><div class="particle" style="left: 73.5843vw; animation-duration: 19.0085s; animation-delay: 10.7809s; height: 2.34405px; width: 2.34405px;"></div><div class="particle" style="left: 31.9319vw; animation-duration: 15.0387s; animation-delay: 11.9491s; height: 3.34307px; width: 3.34307px;"></div><div class="particle" style="left: 40.7175vw; animation-duration: 20.1019s; animation-delay: 8.89343s; height: 3.32379px; width: 3.32379px;"></div><div class="particle" style="left: 96.5943vw; animation-duration: 21.6555s; animation-delay: 9.24574s; height: 1.05228px; width: 1.05228px;"></div><div class="particle" style="left: 20.459vw; animation-duration: 11.8833s; animation-delay: 3.93381s; height: 2.42401px; width: 2.42401px;"></div><div class="particle" style="left: 12.3381vw; animation-duration: 11.0142s; animation-delay: 9.6843s; height: 2.85901px; width: 2.85901px;"></div><div class="particle" style="left: 1.64692vw; animation-duration: 11.0166s; animation-delay: 11.4695s; height: 3.44151px; width: 3.44151px;"></div><div class="particle" style="left: 78.6486vw; animation-duration: 21.7279s; animation-delay: 4.4418s; height: 3.20363px; width: 3.20363px;"></div><div class="particle" style="left: 91.3208vw; animation-duration: 17.5313s; animation-delay: 3.16819s; height: 2.53664px; width: 2.53664px;"></div><div class="particle" style="left: 96.031vw; animation-duration: 9.86645s; animation-delay: 0.235287s; height: 1.10574px; width: 1.10574px;"></div><div class="particle" style="left: 60.5202vw; animation-duration: 15.5138s; animation-delay: 6.68808s; height: 2.97393px; width: 2.97393px;"></div><div class="particle" style="left: 80.8015vw; animation-duration: 12.8927s; animation-delay: 9.08436s; height: 3.14043px; width: 3.14043px;"></div><div class="particle" style="left: 26.803vw; animation-duration: 9.34044s; animation-delay: 8.93307s; height: 1.17814px; width: 1.17814px;"></div><div class="particle" style="left: 52.9414vw; animation-duration: 19.9093s; animation-delay: 7.87644s; height: 1.96137px; width: 1.96137px;"></div><div class="particle" style="left: 44.5527vw; animation-duration: 9.99967s; animation-delay: 7.73915s; height: 2.12064px; width: 2.12064px;"></div><div class="particle" style="left: 98.7678vw; animation-duration: 12.8315s; animation-delay: 1.09183s; height: 3.09959px; width: 3.09959px;"></div><div class="particle" style="left: 39.9021vw; animation-duration: 18.5872s; animation-delay: 3.84163s; height: 1.78082px; width: 1.78082px;"></div><div class="particle" style="left: 52.5663vw; animation-duration: 19.5029s; animation-delay: 11.9966s; height: 2.5695px; width: 2.5695px;"></div><div class="particle" style="left: 70.8243vw; animation-duration: 17.8129s; animation-delay: 5.32307s; height: 3.75477px; width: 3.75477px;"></div><div class="particle" style="left: 63.4322vw; animation-duration: 12.0959s; animation-delay: 3.06525s; height: 2.55193px; width: 2.55193px;"></div><div class="particle" style="left: 89.4041vw; animation-duration: 16.0135s; animation-delay: 5.50014s; height: 3.79971px; width: 3.79971px;"></div><div class="particle" style="left: 2.48995vw; animation-duration: 17.3142s; animation-delay: 6.22823s; height: 1.08471px; width: 1.08471px;"></div></div>
+
+  <div class="wrapper">
+
+    <!-- Badge -->
+    <div class="badge">
+      <!-- Benfica Eagle SVG -->
+      <svg class="eagle-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Águia do Benfica">
+        <!-- Shield -->
+        <path d="M50 8 L88 22 L88 55 C88 75 70 92 50 97 C30 92 12 75 12 55 L12 22 Z" fill="#8b0a1f" stroke="#c8102e" stroke-width="1.5"></path>
+        <!-- Red band -->
+        <path d="M50 8 L88 22 L88 55 C88 75 70 92 50 97 C30 92 12 75 12 55 L12 22 Z" fill="none" stroke="#c8102e" stroke-width="2"></path>
+        <!-- Eagle body -->
+        <ellipse cx="50" cy="52" rx="12" ry="18" fill="#c8102e"></ellipse>
+        <!-- Eagle head -->
+        <circle cx="50" cy="32" r="9" fill="#c8102e"></circle>
+        <!-- Beak -->
+        <path d="M53 34 L60 36 L54 38 Z" fill="#f5c518"></path>
+        <!-- Eye -->
+        <circle cx="47" cy="30" r="2.5" fill="#f5c518"></circle>
+        <circle cx="47" cy="30" r="1.2" fill="#0a0a0b"></circle>
+        <!-- Wings left -->
+        <path d="M38 48 C25 38 10 42 8 52 C15 48 25 50 38 58 Z" fill="#c8102e"></path>
+        <path d="M38 54 C22 46 8 54 10 64 C18 58 28 58 38 64 Z" fill="#8b0a1f"></path>
+        <!-- Wings right -->
+        <path d="M62 48 C75 38 90 42 92 52 C85 48 75 50 62 58 Z" fill="#c8102e"></path>
+        <path d="M62 54 C78 46 92 54 90 64 C82 58 72 58 62 64 Z" fill="#8b0a1f"></path>
+        <!-- Talons -->
+        <path d="M44 68 L40 78 M48 70 L46 80 M52 70 L54 80 M56 68 L60 78" stroke="#f5c518" stroke-width="2" stroke-linecap="round"></path>
+        <!-- Tail feathers -->
+        <path d="M44 68 C42 76 38 80 36 84 M50 70 C50 78 50 82 50 86 M56 68 C58 76 62 80 64 84" stroke="#8b0a1f" stroke-width="2.5" stroke-linecap="round"></path>
+      </svg>
+      <span class="club-name">Sport Lisboa e Benfica</span>
+    </div>
+
+    <!-- Headline -->
+    <h1 class="headline">
+      Dias Sem<span>Champions</span>
+    </h1>
+
+    <!-- Counter -->
+    <div class="counter" role="timer" aria-live="polite" aria-label="Contador de tempo sem Champions League">
+      <div class="counter-block">
+        <span class="counter-num" id="days">080</span>
+        <span class="counter-label">Dias</span>
+      </div>
+      <div class="counter-block">
+        <span class="counter-num" id="hours">20</span>
+        <span class="counter-label">Horas</span>
+      </div>
+      <div class="counter-block">
+        <span class="counter-num" id="minutes">44</span>
+        <span class="counter-label">Minutos</span>
+      </div>
+      <div class="counter-block">
+        <span class="counter-num" id="seconds">43</span>
+        <span class="counter-label">Segundos</span>
+      </div>
+    </div>
+
+    <!-- Last match -->
+    <div class="last-match">
+      <span class="last-match-label">Último jogo na Champions</span>
+      <span class="last-match-info">
+        Real Madrid <span class="score">2 – 1</span> Benfica
+        &nbsp;·&nbsp; Play-off 2.ª Mão &nbsp;·&nbsp; 25 Fev 2026
+      </span>
+    </div>
+
+    <!-- Live indicator -->
+    <div class="live-indicator">
+      <span class="dot"></span>
+      A contagem está a decorrer em tempo real
+    </div>
+
+  </div>
+
+  <footer>
+    Feito com amor (e sofrimento) para os benfiquistas mais masoquistas 🦅❤️
+  </footer>
+
+  
+
+
+</body></html>
+------MultipartBoundary--3evCELyCLKy1dJFWMXA564cBfri63264CzntpB13fF----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@300;400;500&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 300; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 300; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 300; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 300; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 300; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 300; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 300; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Inter; font-style: normal; font-weight: 500; font-display: swap; src: url("https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlbHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlSHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlZHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlYHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYjMdZwl.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlbHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlSHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlZHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlYHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYjMdZwl.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlbHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlSHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlZHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlYHYjMdZwlou4.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Oswald; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYjMdZwl.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--3evCELyCLKy1dJFWMXA564cBfri63264CzntpB13fF----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-e9209d36-122d-4d90-bc1d-5ed543f918d8@mhtml.blink
+
+@charset "utf-8";
+
+*, ::before, ::after { box-sizing: border-box; margin: 0px; padding: 0px; }
+
+:root { --red: #c8102e; --red-dark: #8b0a1f; --red-glow: rgba(200, 16, 46, 0.35); --gold: #f5c518; --bg: #0a0a0b; --surface: #111114; --surface-2: #18181c; --border: rgba(200,16,46,0.2); --text: #f0ede8; --text-muted: #9a9490; --font-display: 'Oswald', sans-serif; --font-body: 'Inter', sans-serif; }
+
+html { scroll-behavior: smooth; }
+
+body { min-height: 100dvh; background: var(--bg); color: var(--text); font-family: var(--font-body); display: flex; flex-direction: column; align-items: center; justify-content: center; overflow-x: hidden; position: relative; }
+
+body::before { content: ""; position: fixed; inset: 0px; background: radial-gradient(80% 50% at 50% 0%, rgba(200, 16, 46, 0.18) 0%, transparent 60%), radial-gradient(60% 40% at 50% 100%, rgba(200, 16, 46, 0.08) 0%, transparent 50%); pointer-events: none; z-index: 0; }
+
+.particles { position: fixed; inset: 0px; pointer-events: none; z-index: 0; overflow: hidden; }
+
+.particle { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: var(--red); opacity: 0; animation: auto linear 0s infinite normal none running float; }
+
+@keyframes float { 
+  0% { transform: translateY(100vh) scale(0); opacity: 0; }
+  10% { opacity: 0.4; }
+  90% { opacity: 0.2; }
+  100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+}
+
+.wrapper { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 2rem; padding: 2rem 1.5rem; width: 100%; max-width: 900px; text-align: center; }
+
+.badge { display: inline-flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+
+.eagle-svg { width: 80px; height: 80px; filter: drop-shadow(0 0 16px var(--red-glow)); animation: 3s ease-in-out 0s infinite normal none running pulse-glow; }
+
+@keyframes pulse-glow { 
+  0%, 100% { filter: drop-shadow(0 0 12px var(--red-glow)); }
+  50% { filter: drop-shadow(rgba(200, 16, 46, 0.6) 0px 0px 28px); }
+}
+
+.club-name { font-family: var(--font-display); font-size: clamp(0.75rem, 2vw, 0.9rem); letter-spacing: 0.35em; text-transform: uppercase; color: var(--text-muted); font-weight: 400; }
+
+.headline { font-family: var(--font-display); font-weight: 700; font-size: clamp(2.4rem, 8vw, 5.5rem); line-height: 1; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text); }
+
+.headline span { color: var(--red); display: block; }
+
+.counter { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; width: 100%; max-width: 700px; }
+
+.counter-block { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem 0.75rem 1.25rem; position: relative; overflow: hidden; transition: border-color 0.3s, box-shadow 0.3s; }
+
+.counter-block::before { content: ""; position: absolute; top: 0px; left: 0px; right: 0px; height: 2px; background: linear-gradient(90deg, transparent, var(--red), transparent); opacity: 0.7; }
+
+.counter-block:hover { border-color: rgba(200, 16, 46, 0.5); box-shadow: rgba(200, 16, 46, 0.12) 0px 0px 24px; }
+
+.counter-num { font-family: var(--font-display); font-weight: 700; font-size: clamp(2rem, 6vw, 4rem); line-height: 1; color: var(--text); letter-spacing: -0.02em; display: block; transition: transform 0.15s, color 0.15s; }
+
+.counter-num.tick { transform: scale(1.12); color: var(--red); }
+
+.counter-label { display: block; font-family: var(--font-body); font-size: clamp(0.6rem, 1.5vw, 0.75rem); font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-muted); margin-top: 0.5rem; }
+
+.last-match { background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.5rem; display: flex; flex-direction: column; gap: 0.3rem; }
+
+.last-match-label { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-muted); }
+
+.last-match-info { font-family: var(--font-display); font-size: clamp(0.9rem, 2.5vw, 1.2rem); color: var(--text); font-weight: 600; letter-spacing: 0.04em; }
+
+.last-match-info .score { color: var(--red); }
+
+.live-indicator { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; color: var(--text-muted); font-weight: 400; letter-spacing: 0.1em; }
+
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--red); animation: 1.4s ease-in-out 0s infinite normal none running blink; flex-shrink: 0; }
+
+@keyframes blink { 
+  0%, 100% { opacity: 1; box-shadow: 0 0 6px var(--red); }
+  50% { opacity: 0.3; box-shadow: none; }
+}
+
+footer { position: relative; z-index: 1; color: var(--text-muted); font-size: 0.72rem; letter-spacing: 0.05em; padding: 1.5rem; text-align: center; line-height: 1.6; }
+
+footer a { color: var(--red); text-decoration: none; }
+
+@media (max-width: 480px) {
+  .counter { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+  .counter-block { padding: 1.25rem 0.5rem 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+------MultipartBoundary--3evCELyCLKy1dJFWMXA564cBfri63264CzntpB13fF------
